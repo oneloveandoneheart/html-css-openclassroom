@@ -1,7 +1,62 @@
-a {
-    color: black;
+body {
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
 }
 
-.important {
-    color: #a5b4fc;
+a {
+    text-decoration: none;
+    color: #242424;
 }
+
+em {
+    color: #a5b4fc;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Montserrat", serif;
+    font-size: 3.5em;
+    color: #A5B4FC;
+}
+
+h2{
+    color: #F9F8FF
+}
+
+p,
+li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+.entete,
+.pied-de-page {
+    background-color: white;
+}
+
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+}
+
+/*// <uniquifier>: Use a unique and descriptive class name
+
+    .montserrat-<uniquifier> {
+                     font-family: "Montserrat", serif;
+                     font-optical-sizing: auto;
+                     font-weight: 400;
+                     font-style: normal;
+              }*/
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 800
+
+.manrope-<uniquifier> {
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}*/
